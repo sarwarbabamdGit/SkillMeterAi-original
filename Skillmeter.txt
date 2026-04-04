@@ -1,0 +1,70 @@
+
+2
+
+Automatic Zoom
+SkillMeter.AI
+SoluƟon Outline
+1. Overview of the Proposed SoluƟon
+The proposed soluƟon is an AI-powered personalized learning plaƞorm that transforms
+unstructured free online educaƟonal content into a structured, goal-oriented, and assessment-driven
+learning experience. The system leverages ArƟficial Intelligence to understand learner profiles,
+generate customized learning roadmaps, enforce daily study rouƟnes, and evaluate learning
+outcomes through content-based assessments.
+2. Key Components of the SoluƟon
+2.1 Learner Profiling
+ Collects user details such as skill level, prior experience, learning goals, and available study
+Ɵme.
+ Uses AI to interpret learner input and personalize the learning journey.
+2.2 AI-Based Content Discovery
+ IdenƟfies high-quality free learning resources such as YouTube tutorials and reference
+materials.
+ Filters content based on relevance, difficulty level, and learning objecƟves.
+ Reduces informaƟon overload by selecƟng only suitable content.
+2.3 Personalized Roadmap GeneraƟon
+ AutomaƟcally converts selected resources into a structured learning roadmap.
+ Organizes topics into chapters and concepts with logical sequencing.
+ Adjusts learning depth based on the learner’s proficiency level.
+2.4 Daily Learning RouƟne & Task Scheduling
+ Generates a day-wise study plan once a course is started.
+ Assigns clear daily tasks to maintain learning consistency.
+ Tracks task compleƟon and learning streaks.
+2.5 AI-Generated Notes and Summaries
+ Generates concise, concept-wise notes from learning content.
+ Highlights key takeaways and important concepts.
+ Enables quick revision and improved retenƟon.
+2.6 AI-Based Assessment and EvaluaƟon
+ Generates concept-specific assessments using learning content.
+ AutomaƟcally evaluates learner responses.
+ Provides instant feedback and performance scores.
+ Ensures learning is outcome-oriented rather than passive.
+2.7 Progress Tracking and AnalyƟcs
+ Tracks learning progress, assessment scores, and compleƟon rates.
+ Visualizes performance through dashboards and charts.
+ IdenƟfies weak areas and recommends improvement.
+2.8 NoƟficaƟon and Engagement System
+ Sends daily reminders and alerts via email and SMS.
+ NoƟfies users of missed tasks and achievements.
+ Encourages consistent learning behavior.
+3. Workflow of the SoluƟon
+1. User signs up and completes onboarding
+2. Learner profile is analyzed using AI
+3. Relevant learning resources are discovered
+4. A personalized learning roadmap is generated
+5. User starts the course and receives daily tasks
+6. User studies content and completes assessments
+7. AI evaluates performance and updates dashboard
+8. NoƟficaƟons reinforce learning discipline
+4. Benefits of the Proposed SoluƟon
+ Provides structured learning paths from free content
+ Adapts learning to individual needs
+ Measures actual understanding through assessments
+ Improves learning consistency and moƟvaƟon
+ Offers data-driven insights into learner progress
+5. Conclusion
+The proposed soluƟon effecƟvely addresses the limitaƟons of unstructured self-learning by
+integraƟng AI-driven personalizaƟon, assessment, and analyƟcs. It ensures that learners not only
+consume content but also understand, retain, and apply knowledge in a disciplined and measurable
+manner.
+One-Line SoluƟon Summary
+An AI-driven system that converts free online educaƟonal content into a personalized, assessed, and
+trackable learning experience.
