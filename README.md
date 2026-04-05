@@ -1,7 +1,7 @@
 <div align="center">
-  <img src="public/logo.png" alt="SkillMeter AI Logo" width="150"/>
+  <img src="public/logo.png" alt="EduTechFuture AI Logo" width="150"/>
   
-  # 🎓 SkillMeter AI
+  # 🎓 EduTechFuture AI
   
   ### **AI-Powered Personalized Learning Platform**
   
@@ -22,7 +22,7 @@
 
 ## 📋 Table of Contents
 
-1. [What is SkillMeter AI?](#-what-is-skillmeter-ai)
+1. [What is EduTechFuture AI?](#-what-is-EduTechFuture-ai)
 2. [Solution Overview](#-solution-overview)
 3. [Platform Workflow](#-platform-workflow)
 4. [Key Features](#-key-features)
@@ -41,15 +41,15 @@
 
 ---
 
-## 🎯 What is SkillMeter AI?
+## 🎯 What is EduTechFuture AI?
 
-**SkillMeter AI** is a comprehensive, AI-powered personalized learning platform that transforms unstructured free online educational content into a structured, goal-oriented, and assessment-driven learning experience. The system leverages **Artificial Intelligence** to understand learner profiles, generate customized learning roadmaps, enforce daily study routines, and evaluate learning outcomes through content-based assessments.
+**EduTechFuture AI** is a comprehensive, AI-powered personalized learning platform that transforms unstructured free online educational content into a structured, goal-oriented, and assessment-driven learning experience. The system leverages **Artificial Intelligence** to understand learner profiles, generate customized learning roadmaps, enforce daily study routines, and evaluate learning outcomes through content-based assessments.
 
 ### AI Impact Statement
 
-> *In an economy where skill is the new currency, SkillMeterAi is how you prove your net worth.*
+> *In an economy where skill is the new currency, EduTechFutureAi is how you prove your net worth.*
 
-### Benefits of SkillMeter AI
+### Benefits of EduTechFuture AI
 
 | Benefit | Description |
 |---------|-------------|
@@ -259,7 +259,7 @@ flowchart TD
 ## 📂 Project Structure
 
 ```
-SkillMeterAi/
+EduTechFutureAi/
 ├── 📁 src/                          # Frontend Source Code
 │   ├── 📁 api/                      # API Client & Services
 │   │   ├── api.js                   # Axios instance with JWT interceptors
@@ -373,7 +373,7 @@ SkillMeterAi/
 │   └── (various utility scripts)
 │
 ├── 📁 public/                       # Public static assets
-│   └── logo.png                     # SkillMeter logo
+│   └── logo.png                     # EduTechFuture logo
 │
 ├── 📁 dist/                         # Production build output
 │
@@ -979,7 +979,7 @@ Tamper-proof certificates with QR code verification.
 2. Backend generates SHA-256 based certificate ID
 3. ReportLab creates PDF with:
    - Decorative border
-   - SkillMeter logo
+   - EduTechFuture logo
    - User name and course title
    - Completion date
    - QR code linking to verification URL
@@ -1109,7 +1109,7 @@ Full-featured code editor supporting 12 programming languages.
 
 ```bash
 # Navigate to project root
-cd SkillMeterAi
+cd EduTechFutureAi
 
 # Install dependencies
 npm install
@@ -1240,9 +1240,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <div align="center">
-  <p>Built with ❤️ by the SkillMeter AI Team</p>
+  <p>Built with ❤️ by the EduTechFuture AI Team</p>
   <p>
-    <a href="#-skillmeter-ai">Back to Top</a>
+    <a href="#-EduTechFuture-ai">Back to Top</a>
   </p>
 </div>
 ]]>

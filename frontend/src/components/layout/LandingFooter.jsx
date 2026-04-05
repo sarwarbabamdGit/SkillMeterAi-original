@@ -7,11 +7,13 @@ export function Footer() {
                 <div className="flex flex-col md:flex-row items-center justify-between gap-6">
                     {/* Logo */}
                     <Link to="/" className="flex items-center gap-2">
-                        <div className="w-8 h-8 bg-primary flex items-center justify-center">
-                            <span className="font-display font-bold text-primary-foreground text-sm">SM</span>
-                        </div>
+                        <img 
+                            src="/logo.png" 
+                            alt="EduTechFuture" 
+                            className="h-8 w-8 object-cover rounded-full border border-border shadow-sm" 
+                        />
                         <span className="font-display font-semibold text-lg tracking-tight">
-                            SkillMeter
+                            EduTechFuture
                         </span>
                     </Link>
 
@@ -30,7 +32,7 @@ export function Footer() {
 
                     {/* Copyright */}
                     <p className="font-mono text-sm text-muted-foreground">
-                        © 2026 SkillMeter AI
+                        © 2026 EduTechFuture AI
                     </p>
                 </div>
             </div>

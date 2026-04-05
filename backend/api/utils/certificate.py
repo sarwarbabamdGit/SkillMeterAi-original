@@ -38,7 +38,7 @@ def generate_certificate_pdf(user_name, course_title, completion_date, cert_id):
     p.setLineWidth(1)
     p.rect(40, 40, width-80, height-80, fill=0, stroke=1)
     
-    # Add SkillMeter Logo (top left corner)
+    # Add EduTechFuture Logo (top left corner)
     logo_path = os.path.join(STATIC_IMAGES_DIR, 'logo.png')
     if os.path.exists(logo_path):
         p.drawImage(logo_path, 60, height - 85, width=50, height=50, preserveAspectRatio=True, mask='auto')
@@ -107,10 +107,10 @@ def generate_certificate_pdf(user_name, course_title, completion_date, cert_id):
     p.setFillColor(colors.Color(0.5, 0.5, 0.5))
     p.drawCentredString(width/2, 80, f"Certificate ID: {cert_id}")
     
-    # SkillMeter branding
+    # EduTechFuture branding
     p.setFont("Helvetica-Bold", 14)
     p.setFillColor(colors.Color(0.2, 0.2, 0.2))
-    p.drawCentredString(width/2, 55, "SkillMeter AI Learning Platform")
+    p.drawCentredString(width/2, 55, "EduTechFuture AI Learning Platform")
     
     # Signature line (left)
     p.setLineWidth(1)

@@ -2,7 +2,7 @@
 2
 
 Automatic Zoom
-SkillMeter.AI
+EduTechFuture.AI
 SoluƟon Outline
 1. Overview of the Proposed SoluƟon
 The proposed soluƟon is an AI-powered personalized learning plaƞorm that transforms

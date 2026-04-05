@@ -40,7 +40,7 @@ if hasattr(user, 'mentor_profile'):
 profile = MentorProfile.objects.create(
     user=user,
     title="Full Stack Developer",
-    company="SkillMeter",
+    company="EduTechFuture",
     hourly_rate=10,
     about="A passionate mentor helping students learn and grow.",
     skills=["React", "Python", "Django", "JavaScript"],

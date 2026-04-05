@@ -1,4 +1,4 @@
-# SkillMeter AI
+# EduTechFuture AI
 ## Product Requirements Document
 
 **Version:** 1.0  
@@ -28,7 +28,7 @@
 
 ### 1.1 Product Vision
 
-**SkillMeter AI** is a comprehensive, AI-powered personalized learning platform that transforms unstructured free online educational content into a structured, goal-oriented, and assessment-driven learning experience.
+**EduTechFuture AI** is a comprehensive, AI-powered personalized learning platform that transforms unstructured free online educational content into a structured, goal-oriented, and assessment-driven learning experience.
 
 **Vision Statement:**  
 To democratize personalized education by converting free online resources into structured, assessed, and trackable learning experiences that rival traditional paid platforms.
@@ -45,7 +45,7 @@ The internet offers abundant free educational content, but learners face several
 
 ### 1.3 Solution Overview
 
-SkillMeter AI addresses these challenges through an intelligent learning platform that:
+EduTechFuture AI addresses these challenges through an intelligent learning platform that:
 
 - Discovers and curates high-quality free content from YouTube and other sources
 - Generates personalized learning roadmaps using Google Gemini AI
@@ -102,7 +102,7 @@ SkillMeter AI addresses these challenges through an intelligent learning platfor
 
 ### 2.3 Key Differentiators
 
-SkillMeter AI stands apart from competitors through:
+EduTechFuture AI stands apart from competitors through:
 
 1. **AI-First Approach**: Google Gemini AI powers roadmap generation, content curation, and assessment creation
 2. **Focus Monitoring**: MediaPipe-powered real-time attention tracking during study sessions
@@ -992,7 +992,7 @@ EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')
 
 **Email Template Example:**
 ```html
-Subject: 🔥 Your SkillMeter Streak: 7 Days!
+Subject: 🔥 Your EduTechFuture Streak: 7 Days!
 
 Hi {user.first_name},
 
@@ -1008,7 +1008,7 @@ Keep going! You're on track to complete "React Mastery" in 14 days.
 [View Dashboard] [Mark Tasks Complete]
 
 Best,
-SkillMeter AI Team
+EduTechFuture AI Team
 ```
 
 ### 5.2 WhatsApp Notifications (Twilio)
@@ -1136,7 +1136,7 @@ def send_whatsapp(user, message):
        # Add decorative border
        draw_border(c)
        
-       # Add SkillMeter logo
+       # Add EduTechFuture logo
        logo = ImageReader('static/images/logo.png')
        c.drawImage(logo, 250, 700, width=100, height=100)
        
@@ -1179,7 +1179,7 @@ def send_whatsapp(user, message):
    from io import BytesIO
    
    def generate_qr_code(cert_id):
-       verify_url = f"https://skillmeter.ai/verify?id={cert_id}"
+       verify_url = f"https://EduTechFuture.ai/verify?id={cert_id}"
        qr = qrcode.QRCode(version=1, box_size=10, border=5)
        qr.add_data(verify_url)
        qr.make(fit=True)
@@ -1192,7 +1192,7 @@ def send_whatsapp(user, message):
 **Multi-Channel Delivery:**
 
 1. **Email:**
-   - Subject: "🎓 Your SkillMeter Certificate is Ready!"
+   - Subject: "🎓 Your EduTechFuture Certificate is Ready!"
    - Attachment: PDF certificate
    - Body: Congratulations message, verification instructions
 
@@ -1225,7 +1225,7 @@ def send_whatsapp(user, message):
                "student_name": roadmap.user.get_full_name(),
                "course_name": roadmap.course.title,
                "completion_date": roadmap.completed_at,
-               "issued_by": "SkillMeter AI"
+               "issued_by": "EduTechFuture AI"
            }
        except Roadmap.DoesNotExist:
            return {"valid": False, "error": "Certificate not found"}
@@ -1240,7 +1240,7 @@ def send_whatsapp(user, message):
 │  Student: John Doe                   │
 │  Course: React Mastery               │
 │  Completed: January 15, 2026         │
-│  Issued by: SkillMeter AI            │
+│  Issued by: EduTechFuture AI            │
 │                                      │
 │  Certificate ID: a3f7c9e21b4d8f6a   │
 └─────────────────────────────────────┘
@@ -2037,7 +2037,7 @@ Warning: #EAB308 (Yellow)
 ### 10.4 Phase 4: Monetization & B2B (Q1 2027)
 
 **Premium Subscription:**
-- SkillMeter Pro tier ($9.99/month)
+- EduTechFuture Pro tier ($9.99/month)
   - Unlimited AI-generated content
   - Priority access to mentors
   - Advanced analytics
@@ -2187,9 +2187,9 @@ ALLOWED_HOSTS=yourdomain.com,www.yourdomain.com
 
 - **Product Owner**: [Contact Information]
 - **Lead Developer**: [Contact Information]
-- **Technical Support**: support@skillmeter.ai
-- **Sales Inquiries**: sales@skillmeter.ai
-- **GitHub Repository**: https://github.com/didaco97/SkillMeterAi
+- **Technical Support**: support@EduTechFuture.ai
+- **Sales Inquiries**: sales@EduTechFuture.ai
+- **GitHub Repository**: https://github.com/didaco97/EduTechFutureAi
 
 ---
 
@@ -2200,4 +2200,4 @@ ALLOWED_HOSTS=yourdomain.com,www.yourdomain.com
 
 ---
 
-*This Product Requirements Document is a living document and will be updated as SkillMeter AI evolves.*
+*This Product Requirements Document is a living document and will be updated as EduTechFuture AI evolves.*

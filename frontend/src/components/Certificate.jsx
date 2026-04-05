@@ -16,8 +16,8 @@ const Certificate = forwardRef(({ userName, courseTitle, completionDate, certifi
             {/* Logo - Top Left */}
             <img
                 src="/logo.png"
-                alt="SkillMeter Logo"
-                className="absolute top-12 left-12 w-16 h-16 object-contain"
+                alt="EduTechFuture Logo"
+                className="absolute top-12 left-12 w-16 h-16 object-cover rounded-full border-2 border-primary shadow-lg"
             />
 
             {/* Rocketboy - Bottom Right */}
@@ -70,7 +70,7 @@ const Certificate = forwardRef(({ userName, courseTitle, completionDate, certifi
                 {/* Footer */}
                 <div className="absolute bottom-16 left-0 right-0 text-center">
                     <p className="text-xs text-gray-400 mb-1">Certificate ID: {certificateId}</p>
-                    <p className="text-sm font-bold text-gray-600">SkillMeter AI Learning Platform</p>
+                    <p className="text-sm font-bold text-gray-600">EduTechFuture AI Learning Platform</p>
                 </div>
             </div>
         </div>

@@ -189,12 +189,12 @@ def mark_concept_complete(request, concept_id):
                 send_email_notification(
                     user=request.user,
                     subject=f"Congratulations! You Completed {course.title} 🎓",
-                    message=f"Hi {request.user.username},\n\nFantastic job completing the '{course.title}' course! You have mastered all the concepts.\n\nKeep up the great learning stride!\n\n- The SkillMeter Team"
+                    message=f"Hi {request.user.username},\n\nFantastic job completing the '{course.title}' course! You have mastered all the concepts.\n\nKeep up the great learning stride!\n\n- The EduTechFuture Team"
                 )
                 # 2. WhatsApp
                 send_whatsapp_notification(
                     user=request.user,
-                    message_body=f"🚀 Milestone Unlocked: You just finished '{course.title}' on SkillMeter! 🎓 Good job!"
+                    message_body=f"🚀 Milestone Unlocked: You just finished '{course.title}' on EduTechFuture! 🎓 Good job!"
                 )
 
         # --- Update User Global Stats ---
@@ -721,7 +721,7 @@ def generate_certificate(request, roadmap_id):
     # Create response
     response = HttpResponse(pdf_content, content_type='application/pdf')
     safe_title = roadmap.course.title.replace(' ', '_')[:30]
-    response['Content-Disposition'] = f'attachment; filename="SkillMeter_Certificate_{safe_title}.pdf"'
+    response['Content-Disposition'] = f'attachment; filename="EduTechFuture_Certificate_{safe_title}.pdf"'
     
     # --- Notification Trigger: Email with Certificate ---
     try:
@@ -729,7 +729,7 @@ def generate_certificate(request, roadmap_id):
             user=request.user,
             subject=f"Your Certificate for {roadmap.course.title}",
             message="Please find attached your official certificate of completion.",
-            attachment=(f'SkillMeter_Certificate_{safe_title}.pdf', pdf_content, 'application/pdf')
+            attachment=(f'EduTechFuture_Certificate_{safe_title}.pdf', pdf_content, 'application/pdf')
         )
         # WhatsApp notification for certificate
         send_whatsapp_notification(
@@ -978,7 +978,7 @@ def update_booking_status(request, booking_id):
             booking.status = 'CONFIRMED'
             # Generate Meeting Link
             sanitized_topic = booking.topic.replace(" ", "-") if booking.topic else "Session"
-            booking.meeting_link = f"https://meet.jit.si/SkillMeter-{booking.id}-{sanitized_topic}"
+            booking.meeting_link = f"https://meet.jit.si/EduTechFuture-{booking.id}-{sanitized_topic}"
             booking.save()
             return Response({'status': 'Booking Confirmed', 'meeting_link': booking.meeting_link})
             

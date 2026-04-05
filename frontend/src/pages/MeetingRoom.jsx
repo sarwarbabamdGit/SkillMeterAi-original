@@ -62,7 +62,7 @@ export default function MeetingRoom() {
                 <div className="w-1/3 border-r-4 border-black bg-gray-900 text-white flex flex-col overflow-hidden relative">
                     <iframe
                         allow="camera; microphone; fullscreen; display-capture; autoplay; speaker-selection; clipboard-write; encrypted-media; picture-in-picture; screen-wake-lock"
-                        src={`https://meet.jit.si/SkillMeter-${roomId}`}
+                        src={`https://meet.jit.si/EduTechFuture-${roomId}`}
                         className="w-full h-full border-none"
                         title="Jitsi Meeting"
                     ></iframe>

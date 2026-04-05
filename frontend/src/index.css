@@ -7,7 +7,7 @@
 
 @layer base {
   :root {
-    /* SkillMeterAi Original Theme (Minimal Black & White) */
+    /* EduTechFutureAi Original Theme (Minimal Black & White) */
     --background: 0 0% 100%;
     --foreground: 0 0% 0%;
 
@@ -64,7 +64,7 @@
   }
 
   .dark {
-    /* SkillMeterAi Dark Mode (Inverted B&W) */
+    /* EduTechFutureAi Dark Mode (Inverted B&W) */
     --background: 0 0% 0%;
     --foreground: 0 0% 100%;
 

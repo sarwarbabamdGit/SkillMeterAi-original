@@ -92,7 +92,7 @@ export function LandingHero() {
                         variants={itemVariants}
                         className="text-2xl md:text-3xl font-body font-bold leading-tight max-w-3xl mb-16 thick-border-left"
                     >
-                        SkillMeter validates your self-taught knowledge with rigorous,
+                        EduTechFuture validates your self-taught knowledge with rigorous,
                         AI-powered assessments. Prove you know it—don't just say you watched it.
                     </motion.p>
 

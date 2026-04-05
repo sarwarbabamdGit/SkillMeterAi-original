@@ -48,7 +48,7 @@ class UserRegistrationSerializer(serializers.ModelSerializer):
                 defaults={
                     'title': 'Mentor',
                     'hourly_rate': 10.00,
-                    'about': 'New mentor on SkillMeter',
+                    'about': 'New mentor on EduTechFuture',
                     'skills': []
                 }
             )

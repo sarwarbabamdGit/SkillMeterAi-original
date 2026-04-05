@@ -20,11 +20,13 @@ export function Navbar({ showLandingNav = false }) {
                 <nav className="flex items-center justify-between h-16">
                     {/* Logo */}
                     <Link to="/" className="flex items-center gap-2">
-                        <div className="w-8 h-8 bg-primary flex items-center justify-center">
-                            <span className="font-display font-bold text-primary-foreground text-sm">SM</span>
-                        </div>
+                        <img 
+                            src="/logo.png" 
+                            alt="EduTechFuture" 
+                            className="h-8 w-8 object-cover rounded-full border border-border shadow-sm" 
+                        />
                         <span className="font-display font-semibold text-lg tracking-tight">
-                            SkillMeter
+                            EduTechFuture
                         </span>
                     </Link>
 

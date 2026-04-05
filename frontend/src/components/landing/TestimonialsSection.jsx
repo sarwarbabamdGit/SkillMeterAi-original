@@ -8,7 +8,7 @@ const testimonials = [
     {
         name: 'Ava Green',
         username: '@ava',
-        body: 'SkillMeter transformed my learning journey!',
+        body: 'EduTechFuture transformed my learning journey!',
         img: 'https://api.dicebear.com/9.x/lorelei/svg?seed=Ava',
         country: '🇦🇺',
     },

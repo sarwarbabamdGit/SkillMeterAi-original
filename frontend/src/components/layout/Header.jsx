@@ -23,11 +23,11 @@ export function Header() {
       <Link to="/" className="flex items-center gap-2">
         <img
           src="/logo.png"
-          alt="SkillMeter"
-          className="h-9 w-9 object-contain"
+          alt="EduTechFuture"
+          className="h-9 w-9 object-cover rounded-full border border-border shadow-sm"
         />
         <span className="font-heading font-semibold text-xl hidden sm:inline">
-          SkillMeter
+          EduTechFuture
         </span>
       </Link>
 

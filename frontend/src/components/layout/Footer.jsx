@@ -6,8 +6,8 @@ export function Footer() {
         {/* Brand */}
         <div className="col-span-2 md:col-span-1">
           <Link to="/" className="flex items-center gap-2 mb-4">
-            <img src="/logo.png" alt="SkillMeter" className="h-8 w-8 object-contain" />
-            <span className="font-heading font-semibold text-lg">SkillMeter</span>
+            <img src="/logo.png" alt="EduTechFuture" className="h-8 w-8 object-cover rounded-full border border-border shadow-sm" />
+            <span className="font-heading font-semibold text-lg">EduTechFuture</span>
           </Link>
           <p className="text-sm text-muted-foreground">
             Turn free content into a structured learning journey with AI-powered personalization.
@@ -65,7 +65,7 @@ export function Footer() {
 
       <div className="border-t border-border mt-8 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
         <p className="text-sm text-muted-foreground">
-          © {new Date().getFullYear()} SkillMeter. All rights reserved.
+          © {new Date().getFullYear()} EduTechFuture. All rights reserved.
         </p>
         <div className="flex items-center gap-4">
           <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">

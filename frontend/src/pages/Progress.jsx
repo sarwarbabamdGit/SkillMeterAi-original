@@ -15,7 +15,7 @@ export default function Progress() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const tokens = JSON.parse(localStorage.getItem('skillmeter_tokens') || '{}');
+        const tokens = JSON.parse(localStorage.getItem('EduTechFuture_tokens') || '{}');
         const headers = tokens.access ? { 'Authorization': `Bearer ${tokens.access}` } : {};
 
         const [leaderboardRes, trendingRes] = await Promise.all([

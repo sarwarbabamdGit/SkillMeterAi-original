@@ -100,7 +100,7 @@ export default function VerifyCertificate() {
 
                         {/* Header / Logo */}
                         <div className="mb-4">
-                            <img src="/logo.png" alt="SkillMeter AI" className="h-16 w-auto mix-blend-multiply" />
+                            <img src="/logo.png" alt="EduTechFuture AI" className="h-16 w-16 object-cover rounded-full border-2 border-white shadow-xl" />
                         </div>
 
                         {/* Status Icon & Title */}
@@ -162,13 +162,13 @@ export default function VerifyCertificate() {
                                 {/* Footer / Signature */}
                                 <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-8 w-full border-t-2 border-dashed border-zinc-300">
                                     <div className="text-center md:text-left">
-                                        <img src="/logo.png" alt="SkillMeter" className="h-8 w-auto opacity-50 grayscale mb-2 mx-auto md:mx-0" />
-                                        <p className="font-mono text-xs text-zinc-400">Verified by SkillMeter AI</p>
+                                        <img src="/logo.png" alt="EduTechFuture" className="h-8 w-8 object-cover rounded-full opacity-50 grayscale mb-2 mx-auto md:mx-0" />
+                                        <p className="font-mono text-xs text-zinc-400">Verified by EduTechFuture AI</p>
                                     </div>
 
                                     <div className="text-center">
                                         <div className="font-handwriting text-3xl text-zinc-800 -rotate-6 mb-2" style={{ fontFamily: 'cursive' }}>
-                                            SkillMeter Director
+                                            EduTechFuture Director
                                         </div>
                                         <div className="h-0.5 w-32 bg-black mx-auto"></div>
                                         <p className="font-mono text-xs font-bold uppercase mt-1">Authorized Signature</p>

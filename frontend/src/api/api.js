@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8001/api';
-const TOKEN_KEY = 'skillmeter_tokens';
+const TOKEN_KEY = 'EduTechFuture_tokens';
 
 const api = axios.create({
     baseURL: API_URL,

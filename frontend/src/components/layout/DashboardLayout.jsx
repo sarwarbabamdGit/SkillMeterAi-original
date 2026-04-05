@@ -46,10 +46,10 @@ export function DashboardLayout({ children }) {
         <Link to="/" className="flex items-center gap-3">
           <img
             src="/logo.png"
-            alt="SkillMeter"
-            className="h-8 w-8 object-contain shrink-0" // Removed grayscale
+            alt="EduTechFuture"
+            className="h-8 w-8 object-cover rounded-full border border-border shrink-0 shadow-sm" // Removed grayscale
           />
-          <span className="font-heading font-bold text-xl tracking-tight">SkillMeter</span>
+          <span className="font-heading font-bold text-xl tracking-tight">EduTechFuture</span>
         </Link>
       </div>
 

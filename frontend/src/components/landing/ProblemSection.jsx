@@ -76,7 +76,7 @@ export function ProblemSection() {
 
                         <div className="space-y-6 font-body text-xl leading-relaxed border-l-6 border-foreground pl-6">
                             <p className="text-muted-foreground">
-                                SkillMeter doesn't care <span className="font-black text-foreground">where</span> you learned.
+                                EduTechFuture doesn't care <span className="font-black text-foreground">where</span> you learned.
                                 We care <span className="font-black text-foreground">what</span> you know.
                             </p>
                             <p className="text-muted-foreground">

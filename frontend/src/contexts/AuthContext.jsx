@@ -2,9 +2,9 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 
 const AuthContext = createContext(undefined);
 const API_URL = 'http://localhost:8001/api';
-const TOKEN_KEY = 'skillmeter_tokens';
-const USER_KEY = 'skillmeter_user';
-const ONBOARDING_KEY = 'skillmeter_onboarding';
+const TOKEN_KEY = 'EduTechFuture_tokens';
+const USER_KEY = 'EduTechFuture_user';
+const ONBOARDING_KEY = 'EduTechFuture_onboarding';
 
 export function AuthProvider({ children }) {
     const [user, setUser] = useState(null);

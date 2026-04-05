@@ -20,7 +20,7 @@ export function ReviewForm() {
         <Card className="w-full max-w-md mx-auto rounded-none border-2 border-black shadow-[8px_8px_0px_0px_#000]">
             <CardHeader>
                 <CardTitle>Share Your Experience</CardTitle>
-                <CardDescription>Tell us what you think about SkillMeter.</CardDescription>
+                <CardDescription>Tell us what you think about EduTechFuture.</CardDescription>
             </CardHeader>
             <CardContent>
                 {submitted ? (
@@ -60,7 +60,7 @@ export function ReviewForm() {
 
                         <div className="space-y-2">
                             <Textarea
-                                placeholder="What did you like about SkillMeter?"
+                                placeholder="What did you like about EduTechFuture?"
                                 className="min-h-[100px] rounded-none border-2 border-black focus-visible:ring-0 focus-visible:shadow-[4px_4px_0px_0px_#000] focus-visible:-translate-y-[2px] focus-visible:-translate-x-[2px] transition-all"
                                 required
                             />

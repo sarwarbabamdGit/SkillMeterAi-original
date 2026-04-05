@@ -28,7 +28,7 @@ class Command(BaseCommand):
             self.stdout.write('Sending test email...')
             success = send_email_notification(
                 user=user,
-                subject="Test Notification from SkillMeter",
+                subject="Test Notification from EduTechFuture",
                 message="This is a test email to verify your SMTP settings are working correctly."
             )
             if success:
@@ -40,7 +40,7 @@ class Command(BaseCommand):
             self.stdout.write('Sending test WhatsApp...')
             success = send_whatsapp_notification(
                 user=user,
-                message_body="This is a test message from SkillMeter backend! 🚀"
+                message_body="This is a test message from EduTechFuture backend! 🚀"
             )
             if success:
                 self.stdout.write(self.style.SUCCESS('✅ WhatsApp message sent successfully'))
