@@ -17,7 +17,7 @@ class LearnerProfile(models.Model):
     skill_level = models.CharField(max_length=20, choices=SKILL_LEVELS, default='beginner')
     learning_goals = models.JSONField(default=list, blank=True)  # List of goal IDs
     daily_study_time = models.IntegerField(default=30)  # Minutes per day
-    phone_number = models.CharField(max_length=20, default='+919518380879', help_text="For WhatsApp notifications")
+    phone_number = models.CharField(max_length=20, default='+919705930993', help_text="For WhatsApp notifications")
     onboarding_completed = models.BooleanField(default=False)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)

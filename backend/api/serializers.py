@@ -56,7 +56,7 @@ class UserRegistrationSerializer(serializers.ModelSerializer):
             # Auto-create LearnerProfile for students
             LearnerProfile.objects.get_or_create(
                 user=user,
-                defaults={'phone_number': '+919518380879'}
+                defaults={'phone_number': '+919705930993'}
             )
         
         return user

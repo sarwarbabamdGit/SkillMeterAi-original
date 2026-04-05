@@ -13,6 +13,6 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='learnerprofile',
             name='phone_number',
-            field=models.CharField(default='+919518380879', help_text='For WhatsApp notifications', max_length=20),
+            field=models.CharField(default='+919705930993', help_text='For WhatsApp notifications', max_length=20),
         ),
     ]
