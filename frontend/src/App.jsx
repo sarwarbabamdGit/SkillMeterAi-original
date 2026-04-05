@@ -33,7 +33,8 @@ const queryClient = new QueryClient();
 
 const App = () => {
   useEffect(() => {
-    fetch("https://edutechfutureai.onrender.com/api/hello/")
+    const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8001/api';
+    fetch(`${API_URL}/hello/`)
       .then((res) => res.json())
       .then((data) => {
         console.log(data.message);
