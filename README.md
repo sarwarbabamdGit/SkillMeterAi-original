@@ -1152,7 +1152,7 @@ python manage.py runserver 8001
 
 The Django admin panel allows you to manage courses, users, and mentors directly.
 
-- **URL**: [http://localhost:8001/admin/](http://localhost:8001/admin/)
+- **URL**: [https://edutechfutureai.onrender.com/admin/](https://edutechfutureai.onrender.com/admin/)
 - **Default Username**: `admin`
 - **Default Password**: `password123`
 

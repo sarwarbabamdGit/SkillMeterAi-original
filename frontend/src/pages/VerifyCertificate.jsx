@@ -41,7 +41,7 @@ export default function VerifyCertificate() {
 
         const verifyCert = async () => {
             try {
-                const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8001/api';
+                const API_URL = import.meta.env.VITE_API_URL || 'https://edutechfutureai.onrender.com/api';
                 const response = await fetch(`${API_URL}/certificates/verify/${certId}/`);
                 if (!response.ok) {
                     throw new Error('Certificate not found or invalid');

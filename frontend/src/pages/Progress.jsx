@@ -18,7 +18,7 @@ export default function Progress() {
         const tokens = JSON.parse(localStorage.getItem('EduTechFuture_tokens') || '{}');
         const headers = tokens.access ? { 'Authorization': `Bearer ${tokens.access}` } : {};
 
-        const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8001/api';
+        const API_URL = import.meta.env.VITE_API_URL || 'https://edutechfutureai.onrender.com/api';
         const [leaderboardRes, trendingRes] = await Promise.all([
           fetch(`${API_URL}/leaderboard/`, { headers }),
           fetch(`${API_URL}/trending/`, { headers })

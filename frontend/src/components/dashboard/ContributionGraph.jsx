@@ -13,7 +13,7 @@ export function ContributionGraph() {
     useEffect(() => {
         const fetchActivity = async () => {
             try {
-                const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8001/api';
+                const API_URL = import.meta.env.VITE_API_URL || 'https://edutechfutureai.onrender.com/api';
                 const res = await authFetch(`${API_URL}/activity/`);
                 if (res.ok) {
                     const data = await res.json();

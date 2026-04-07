@@ -48,7 +48,7 @@ export default function Learn() {
   const navigate = useNavigate();
   const { toast } = useToast();
 
-  const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8001/api';
+  const API_URL = import.meta.env.VITE_API_URL || 'https://edutechfutureai.onrender.com/api';
 
   // Generate notes on-demand when Notes tab is clicked
   const handleGenerateNotes = async (conceptId) => {
